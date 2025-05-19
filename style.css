@@ -1,53 +1,29 @@
 body {
-  font-family: 'Tajawal', sans-serif;
-  background-color: #f8fafc;
-  color: #2b2d42;
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
 }
 
-input, textarea, button {
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
+header {
+    background: linear-gradient(135deg, #4361ee, #3a0ca3);
+    color: white;
+    padding: 2rem;
+    text-align: center;
 }
 
-button {
-  background-color: #4361ee;
-  color: white;
-  cursor: pointer;
+.post {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.article {
-  background: white;
-  padding: 1.5rem;
-  margin-top: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.article img {
-  width: 100%;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-}
-
-.keywords {
-  margin-top: 1rem;
-  color: #888;
-  font-size: 0.9rem;
-}
-
-.actions {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-}
-
-.actions button {
-  flex: 1;
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
 }
