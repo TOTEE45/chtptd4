@@ -23,7 +23,7 @@ async function generateArticle() {
     });
 
     const data = await response.json();
-    const article = data.candidates?.[0]?.content?.parts?.[0]?.text || "لم يتم إنشاء مقال 😢";
+const article = data.candidates?.[0]?.content?.parts?.[0]?.text || "لم يتم إنشاء مقال 😢";
 
     // 2. جلب صورة من Unsplash
     const imageRes = await fetch(`https://api.unsplash.com/photos/random?query=${encodeURIComponent(topic)}&client_id=${unsplashKey}`);
