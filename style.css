@@ -1,0 +1,53 @@
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: #f8fafc;
+  color: #2b2d42;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4361ee;
+  color: white;
+  cursor: pointer;
+}
+
+.article {
+  background: white;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.article img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.keywords {
+  margin-top: 1rem;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.actions button {
+  flex: 1;
+}
